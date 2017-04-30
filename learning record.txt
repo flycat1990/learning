@@ -1,0 +1,13 @@
+Day01
+
+1、html 
+元素（h1 div table input p等） 
+属性(id style等) 
+CSS引入（link）  
+JS引入（script）
+
+
+2、css 
+选择器（类选择器 ID选择器 元素选择器） 
+样式（color width height left right top bottom等） 
+盒子模型（magin boder padding）
