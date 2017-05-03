@@ -1,13 +1,22 @@
 Day01
 
-1、html 
+一、html 
 元素（h1 div table input p等） 
 属性(id style等) 
 CSS引入（link）  
 JS引入（script）
 
+1、<head>
+<meta http_equiv="refresh" content="2;URL='www.baidu.com'">
+<title>
+<link ref="icon" href="">
 
-2、css 
+2、<body>
+<h1>:黑粗大，块级标签
+<p>：换行和隔行，块级标签
+
+
+二、css 
 选择器（类选择器 ID选择器 元素选择器） 
 样式（color width height left right top bottom等） 
 盒子模型（magin boder padding）

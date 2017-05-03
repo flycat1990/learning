@@ -3,25 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        body {
+            background-color: #2aabd2;
+        }
+
+
+    </style>
 </head>
+
 <body>
+<img src="img/timg.jpg" height="661" width="440"/>
+
+<p id="para1">Welcome to my website</p>
+<p id="para2">If you want to know more about me, please login!</p>
+
 <form>
-    <p>用户：<input type="text" name="username"></p>
+    <p>用户：<input
+            ype="text" name="username"></p>
     <p>密码：<input type="password" name="paword"></p>
+    <a href="https://www.baidu.com/">忘记密码</a>
 
 
+    <!--<p>爱好：篮球<input type="checkbox" name="hobby" value="bak"></p>-->
+    <!--<p>     足球<input type="checkbox" name="hobby" value="ftb"></p>-->
 
-    <p>爱好：篮球<input type="checkbox" name="hobby" value="bak"></p>
-    <p>     足球<input type="checkbox" name="hobby" value="ftb"></p>
-
-    <p>性别：男<input type="radio" name="sex" value="0"></p>
-    <p>     女<input type="radio" name="sex" value="1"></p>
+    <!--<p>性别：男<input type="radio" name="sex" value="0"></p>-->
+    <!--<p>     女<input type="radio" name="sex" value="1"></p>-->
 
     <p><input type="submit" value="login"></p>
 
-    <p><input type="file"></p>
+    <!--<p><input type="file"></p>-->
     <p><input type="reset"></p>
 
+    出生地：<select name="city" multiple size="3">
+
+    <optgroup label="河北省"></optgroup>
+
+    <option value="beijing">北京</option>
+    <option value="tianjin">天津</option>
+    <option value="langfang">廊坊</option>
+    <option value="langfang">廊坊</option>
+    <option value="langfang">廊坊</option>
+    <option value="langfang">廊坊</option>
+
+    <optgroup label="广东省"></optgroup>
+
+    <option value="langfang">广州</option>
+    <option value="langfang">深圳</option>
+    <option value="langfang">珠江</option>
+    <option value="langfang">珠江</option>
+    <option value="langfang">珠江</option>
+
+    <textarea rows="5">自我简介</textarea>
+
+
+</select>
 
 
 </form>
