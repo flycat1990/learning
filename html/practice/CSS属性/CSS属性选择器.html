@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            background-color: #2aabd2
+        }
+
+        [id] {
+            color: #b92c28;
+        }
+
+        [class="div2"] {
+            color: orange;
+        }
+
+        /*[class~="div2"] {*/
+            /*background-color: yellow;*/
+        /*}*/
+
+        [class^="div2"] {
+            background-color: #2e6da4;
+        }
+
+        [class*="div1"] {
+            background-color: #5e5e5e;
+        }
+    </style>
+</head>
+
+</body>
+
+<div class="div1 div2">div1</div>
+<div class="div2">div2</div>
+<div class="div3">div3</div>
+<div id="id">iddd</div>
+
+</body>
+
+</html>
