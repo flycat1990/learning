@@ -9,6 +9,7 @@
             margin: 0px;
             padding: 0px;
         }
+
         a {
             text-decoration: none;
         }
@@ -72,7 +73,7 @@
             line-height: 60px;
         }
 
-        .key-search .search-text,.key-search a.i {
+        .key-search .search-text, .key-search a.i {
             float: left;
         }
 
@@ -103,19 +104,117 @@
             right: 150px;
         }
 
-       .action-nav a {
+        .action-nav a {
             color: gray;
             font-size: 17px;
             padding: 0 20px;
-           display: inline-block;
+            display: inline-block;
         }
 
         .action-nav a:hover {
             background-color: #c0cddf;
         }
 
+        /*-----------------------------------------------------head end-----------------------*/
 
+        .main-content-box {
+            background-color: #ededed;
+            width: 100%;
+        }
 
+        .main-content {
+            margin: 0 auto;
+            background-color: #fff;
+            width: 1016px;
+            height: auto!important;
+            min-height: 700px;
+            padding: 6px 28px 60px 28px;
+        }
+
+        .content-L {
+            float: left;
+            width: 760px;
+        }
+
+        .child-nav,.sort-nav,.publish-btn {
+            float: left;
+            margin: 10px;
+        }
+
+        .publish-btn {
+            float: right;
+        }
+
+        .top-area {
+            border-bottom: 1px solid red;
+            overflow: hidden;
+        }
+
+        .child-nav .active {
+            background: url("CHOUTI_8739190CBEED4BEF8B7EDC3E987FA622_W248H248=C60x60.png") no-repeat 0 -299px;
+            color: black;
+        }
+
+        .child-nav a {
+            display: inline-block;
+            width: 60px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            color: #369;
+            font-weight: 700;
+            margin-top: 3px;
+        }
+
+        .sort-nav {
+            margin-left: 144px;
+        }
+        .sort-nav a {
+            display: inline-block;
+            width: 60px;
+            height: 26px;
+            line-height: 26px;
+            text-align: center;
+            color: green;
+            font-weight: 700;
+            margin-left: 5px;
+        }
+
+        .sort-nav .active {
+            color: #b4b4b4;
+        }
+
+        .publish-btn {
+            display: inline-block;
+            background-color: #84a42b;
+            width: 134px;
+            height: 30px;
+            color: #fff;
+            text-align: center;
+            line-height: 26px;
+        }
+
+        /*----------------------------------------end top_area-----------------------------*/
+
+        .content-list .item {
+            border-bottom: 1px solid red;
+            margin-top: 10px;
+        }
+
+        .news-pic {
+            float: right;
+            margin-top: 3px;
+        }
+
+        .part2 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .part1 {
+            line-height: 25px;
+        }
 
 
     </style>
@@ -138,7 +237,7 @@
 
         <div class="key-search">
             <form action="/" method="post">
-                <input type="text" class="search-text" >
+                <input type="text" class="search-text">
 
                 <a href="#" class="i">
                     <span class="ico"></span>
@@ -154,10 +253,242 @@
     </div>
 
 
-    <div class="footer-content">
+    <div class="main-content-box">
+        <div class="main-content">
+            <div class="content-L">
+                <div class="top-area">
+
+                    <div class="child-nav">
+                        <a href="" class=" hotbtn active">最热</a>
+                        <a href="" class="newbtn">最新</a>
+                        <a href="personbtn">人类发布</a>
+                    </div>
+
+                    <div class="sort-nav">
+                        <a href="" class="sort active">即时排序</a>
+                        <a href="" class="newbtn">24小时</a>
+                        <a href="" class="newbtn">3天发布</a>
+                    </div>
+
+                    <a href="" class="publish-btn">
+                        <span>发布</span>
+                    </a>
+                </div>
+
+
+                <div class="content-list">
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="news-pic"><img src="marry.jpg" height="50" width="50"/></div>
+                        <div class="news-content">
+                            <div class="part1">
+
+                                <a href="">一场盛大而费钱的婚礼是有必要的。又一个弱小的个体要归顺用来稳定社
+                                    会的最小单位、最大牢笼了。最后的狂欢最后的万众瞩目最后的高高在上。我们目
+                                    送，挥别，为人类的弱小和爱的伟大流泪，为人类为了抵抗这弱而做出的努力、发
+                                    明的仪式深深感动。（@红拂夜奔不复还）
+                                </a>
+
+                                <a href="">-t.cn 42区</a>
+                            </div>
+
+                            <div class="part2">
+                                <a href="">11</a>
+                                <a href="">16</a>
+                                <a href="">私藏</a>
+                                <a href="">从善如流马歇尔</a>
+                                <a href="">39分钟前</a>
+                                <a href="">入热榜 分享到</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="content-R">
+
+            </div>
+        </div>
 
     </div>
-</div>
 
 </body>
+
+
 </html>
